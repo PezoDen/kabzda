@@ -35,12 +35,12 @@ function App() {
             <UncontrolledOnOff onChange={setSwitchOn}/>{switchOn.toString()}
 
             {/*<UnControlledAccordion titleValue={'--menu--'}/>*/}
-            <Accordion titleValue={'--menu--'}
-                       collapsed={accordionCollapsed}
-                       onChange={()=>{setAccordionCollapsed(!accordionCollapsed)}}
-            />
+            {/*<Accordion titleValue={'--menu--'}*/}
+            {/*           collapsed={accordionCollapsed}*/}
+            {/*           onChange={()=>{setAccordionCollapsed(!accordionCollapsed)}}*/}
+            {/*/>*/}
 
-            {/*<UnControlledAccordion titleValue={'--users--'}/>*/}
+            <UnControlledAccordion titleValue={'--users--'}/>
             {/*<UncontrolledRating/>*/}
             <Rating value={ratingValue} onClick={setRatingValue}/>
 
