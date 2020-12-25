@@ -32,7 +32,7 @@ function App() {
 */}
             {/* eslint-disable-next-line react/jsx-no-undef */}
             {/*<OnOff on={switchOn} onChange={setSwitchOn}/>*/}
-            <UncontrolledOnOff onChange={setSwitchOn}/>{switchOn.toString()}
+            {/*<UncontrolledOnOff onChange={setSwitchOn}/>{switchOn.toString()}*/}
 
             {/*<UnControlledAccordion titleValue={'--menu--'}/>*/}
             {/*<Accordion titleValue={'--menu--'}*/}
@@ -42,7 +42,7 @@ function App() {
 
             <UnControlledAccordion titleValue={'--users--'}/>
             {/*<UncontrolledRating/>*/}
-            <Rating value={ratingValue} onClick={setRatingValue}/>
+            {/*<Rating value={ratingValue} onClick={setRatingValue}/>*/}
 
 
         </div>
